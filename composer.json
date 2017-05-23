@@ -1,0 +1,26 @@
+{
+  "name": "arkhipovandrei/yii2-yageocoder",
+  "description": "Yii2 yandex geocoder",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "yandex",
+    "geocoder"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Andrei Arkhipov",
+      "email": "arkhipovandrei.p@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2-httpclient": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "arkhipovandrei\\yageocoder\\": ""
+    }
+  }
+}
